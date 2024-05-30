@@ -1,12 +1,8 @@
--- *******************************************************************
--- *                                                                 *
--- * 20190705  Initial creation                                      *
--- *                                                                 *
--- *******************************************************************
+
 
 with Ada.Text_IO;
 
-procedure NumOps is
+procedure NumMod is
 
    package TIO renames Ada.Text_IO;
    package IIO is new TIO.Integer_IO (Integer);
