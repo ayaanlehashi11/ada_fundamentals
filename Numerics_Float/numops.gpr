@@ -1,5 +1,5 @@
-project Numops is
+project NumFloat is
     for Source_Dirs use ("src");
     for Object_Dir use "obj";
-    for Main use ("numops.adb");
-end Numops;
+    for Main use ("numfloat.adb");
+end NumFloat;
