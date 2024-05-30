@@ -3,16 +3,9 @@
 -- * 20190703  Initial creation                                      *
 -- *                                                                 *
 -- *******************************************************************
-with Ada.Text_IO;
+-- some preliminary Caveates
 
-procedure Start is
- package IO renames Ada.Text_IO;
-
--- This_Is_Legal : Integer;
--- ThisIsLegal2 : Integer;
--- Andso2isthisverylongandsomewhathardtoreadnameinmostlylowercase: Integer;
-
- -- this is not legal
+-- this is not legal
  --range : Integer;
 
  -- this is not legal
@@ -28,8 +21,19 @@ procedure Start is
 -- This_Is_Illegal_ : Integer;
 
 -- this is not going to work, but what a nice error message!!
--- ThisIsNotGoingToWork : Integer;
--- THISISNOTGOINGTOWORK : Integer;
+-- This_Is_Not_Going_To_Work : Integer;
+-- THIS_IS_NOT_GOING_TO_WORK : Integer;
+
+
+with Ada.Text_IO;
+
+procedure Main is
+ package IO renames Ada.Text_IO;
+
+-- This_Is_Legal : Integer;
+-- ThisIsLegal2 : Integer;
+-- Andso2isthisverylongandsomewhathardtoreadnameinmostlylowercase: Integer;
+
 
  X, Y : Integer :=10;
  Result : Integer :=0;
