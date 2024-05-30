@@ -5,7 +5,7 @@
 -- *******************************************************************
 with Ada.Text_IO;
 
-procedure NumOps is
+procedure NumFloat is
    package TIO renames Ada.Text_IO;
    package FIO is new TIO.Float_IO (Float);
    My_Float : Float    := 123.55678987654321;
